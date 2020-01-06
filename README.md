@@ -1,4 +1,4 @@
-#Benchmarking for rust_juniter_actix
+# Benchmarking for rust_juniter_actix
 
 Benchmark with loadrunner.js
 
@@ -15,9 +15,9 @@ Benchmark with loadrunner.js
 │ Bytes/Sec │ 3.91 MB │ 3.91 MB │ 4.85 MB │ 4.86 MB │ 4.66 MB │ 378 kB  │ 3.91 MB │
 └───────────┴─────────┴─────────┴─────────┴─────────┴─────────┴─────────┴─────────┘
 
-#Run server
+# Run server
 1. cargo run --release
 
-#Run benchmark
+# Run benchmark
 1. npm install -g autocannon
 2. node ./load_runner.js
