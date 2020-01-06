@@ -1,7 +1,7 @@
 # Benchmarking for rust_juniper_actix
 
-### Benchmark with load_runner.js
-
+### Benchmark with load_runner.js(autocannon)
+5 connections for 5 seconds
 ┌─────────┬──────┬──────┬───────┬──────┬─────────┬─────────┬───────────┐
 │ Stat    │ 2.5% │ 50%  │ 97.5% │ 99%  │ Avg     │ Stdev   │ Max       │
 ├─────────┼──────┼──────┼───────┼──────┼─────────┼─────────┼───────────┤
