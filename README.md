@@ -1,6 +1,6 @@
-# Benchmarking for rust_juniter_actix
+# Benchmarking for rust_juniper_actix
 
-Benchmark with loadrunner.js
+### Benchmark with load_runner.js
 
 ┌─────────┬──────┬──────┬───────┬──────┬─────────┬─────────┬───────────┐
 │ Stat    │ 2.5% │ 50%  │ 97.5% │ 99%  │ Avg     │ Stdev   │ Max       │
