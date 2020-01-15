@@ -43,7 +43,9 @@ async fn main() -> io::Result<()> {
             .data(schema.clone())
             .wrap(middleware::Logger::default())
             .service(web::resource("/graphql").route(web::post().to(graphql)))
+            .service(web::resource("/graphql").route(web::get().to(graphql)))
             .service(web::resource("/graphiql").route(web::get().to(graphiql)))
+            .service(web::resource("/graphiql").route(web::post().to(graphiql)))
     })
     .bind("127.0.0.1:8080")?
     .run()
